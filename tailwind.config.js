@@ -28,7 +28,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'Montserrat':['Montserrat']
+        'Montserrat':['Montserrat'],
+        'Tenor-Sans':['Tenor-Sans']
       },
     },
 
