@@ -29,8 +29,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'Montserrat':['Montserrat'],
-        'Tenor-Sans':['Tenor-Sans']
+        'Tenor-Sans':['Tenor-Sans'],
       },
+      boxShadow: {
+        '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)'
+      }
     },
 
   },
