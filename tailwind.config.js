@@ -4,9 +4,15 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
+    letterSpacing:{
+      wider: '0.20em',
+    },
     fontWeight:{
       medium: '500',
       bold: '900',
+    },
+    fontSize: {
+      xl: '1.30rem',
     },
     colors: {
       'rose-clear': '#D988B94D',
@@ -24,7 +30,7 @@ module.exports = {
       },
       Pink:{
         100: '#EEC7DE00',
-      }
+      },
     },
     extend: {
       fontFamily: {
@@ -32,8 +38,8 @@ module.exports = {
         'Tenor-Sans':['Tenor-Sans'],
       },
       boxShadow: {
-        '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)'
-      }
+        '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)',
+      },
     },
 
   },
