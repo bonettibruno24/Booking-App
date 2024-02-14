@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormsModule } from '@angular/forms';
 import { BackgroundComponent } from './components/background/background.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { CardListComponent } from './components/card-list/card-list.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HeaderComponent,
     BackgroundComponent,
     NavbarComponent,
+    CardListComponent,
   ],
   imports: [
     BrowserModule,
