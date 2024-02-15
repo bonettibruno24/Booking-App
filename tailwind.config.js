@@ -45,7 +45,13 @@ module.exports = {
         '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)',
       },
       dropShadow: {
-        '4x1': '9px 15px 3px rgba(0, 0, 0, 0.15)'
+        '4x1': '9px 15px 3px rgba(0, 0, 0, 0.15)',
+      },
+      spacing: {
+        '3.5': '3.5rem',
+      },
+      margin: {
+        '21.5': '21.5rem'
       }
     },
 
