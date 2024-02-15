@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./card-list.component.scss']
 })
 export class CardListComponent {
-
+  styleBorder = {
+    'border': '2px solid #55555599'
+  }
 }
