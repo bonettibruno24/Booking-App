@@ -12,7 +12,9 @@ module.exports = {
       bold: '900',
     },
     fontSize: {
+      xs: '1.20rem',
       xl: '1.30rem',
+      
     },
     colors: {
       'rose-clear': '#D988B94D',
@@ -23,6 +25,8 @@ module.exports = {
       'gray': '#555555', 
       'white' : '#FFFFFF',
       'dark-border': '(rgba(0, 0, 0, 0.60)',
+      'rose-barbie': '',
+      
       pink:{
         50:'#D988B94D',
         150:'#EEC7DE',
@@ -40,6 +44,9 @@ module.exports = {
       boxShadow: {
         '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)',
       },
+      dropShadow: {
+        '4x1': '9px 15px 3px rgba(0, 0, 0, 0.25)'
+      }
     },
 
   },
