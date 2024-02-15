@@ -1,20 +1,20 @@
-<section class="flex flex-col w-full h-96 justify-center items-center absolute font-Tenor-Sans font-medium text-xl">
-    <div class="grid w-96 h-56 mt-10 rounded-3xl drop-shadow-4x1 items-center justify-center text-dark" id="menuOptiion" [ngStyle]="styleBorder">
-        <h1 class="w-full tracking-[0.20em]">SERVIÇOS</h1>
-        <div class="text-xs">
-            <input type="radio" value="Manicure" name="service" >
-            <label for="Manicure">Manicure</label>
-            <span>10$</span>
+<section class="flex w-full h-96 justify-center items-center absolute font-Tenor-Sans font-medium text-xl">
+    <div class="grid flex-col w-96 h-56 mt-14 rounded-3xl drop-shadow-4x1 p-5 text-dark justify-center items-center gap-2" id="menuOptiion" [ngStyle]="styleBorder">
+        <h1 class="ml-24 tracking-[0.20em] ">SERVIÇOS</h1>
+        <div class="text-xs w-80 h-11 rounded-2xl p-2" [ngStyle]="buttonBorder">
+            <input type="radio" value="radioMani" name="service" >
+            <label for="Manicure" class="ml-3">Manicure</label>
+            <span class="ml-40">10$</span>
         </div>
-        <div class="text-xs">
+        <div class="text-xs w-80 h-11 rounded-2xl p-2" [ngStyle]="buttonBorder">
             <input type="radio" value="Manicure" name="service">
-            <label for="Manicure">Manicure</label>
-            <span>10$</span>
+            <label for="Manicure" class="ml-3">Manicure</label>
+            <span class="ml-40">10$</span>
         </div>
-        <div class="text-xs">
+        <div class="text-xs w-80 h-11 rounded-2xl p-2 " [ngStyle]="buttonBorder">
             <input type="radio" value="Manicure" name="service">
-            <label for="Manicure">Manicure</label>
-            <span>10$</span>
+            <label for="Manicure" class="ml-3">Manicure</label>
+            <span class="ml-40">10$</span>
         </div>
     </div>
 </section>

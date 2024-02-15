@@ -9,4 +9,7 @@ export class CardListComponent {
   styleBorder = {
     'border': '2px solid #55555599'
   }
+  buttonBorder= {
+    'border': '1px solid #000000'
+  }
 }
