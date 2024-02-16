@@ -12,4 +12,13 @@ export class CardListComponent {
   buttonBorder= {
     'border': '1px solid #000000'
   }
-}
+  dayweek = [
+    { days: 'Seg', hours: 'Fechado'},
+    { days: 'Ter', hours: '09:00 as 17:00'},
+    { days: 'Quar', hours: '09:00 as 19:00'},
+    { days: 'Qui', hours: '08:00 as 20:00'},
+    { days: 'Sex', hours: '08:00 as 20:00'},
+    { days: 'Sab', hours: '08:00 as 19:00'},
+    { days: 'Dom', hours: 'Fechado'},
+  ];
+  }
