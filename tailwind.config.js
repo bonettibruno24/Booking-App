@@ -4,42 +4,45 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    letterSpacing:{
+    letterSpacing: {
       wider: '0.20em',
     },
-    fontWeight:{
+    fontWeight: {
       medium: '500',
       bold: '900',
     },
     fontSize: {
+      sm: '1.00rem',
       xs: '1.20rem',
       xl: '1.30rem',
-      
+
     },
     colors: {
       'rose-clear': '#D988B94D',
       'rose': '#EEC7DE',
-      
+      'rose-gray': '#D988B929',
+
       'purple': '#AC87C566',
-      'dark' : '#000000',
-      'gray': '#555555', 
-      'white' : '#FFFFFF',
+      'dark': '#000000',
+      'gray': '#555555',
+      'white': '#FFFFFF',
       'dark-border': '(rgba(0, 0, 0, 0.60)',
+      'dark-gray': '#333333',
       'rose-barbie': '',
-      
-      pink:{
-        50:'#D988B94D',
-        150:'#EEC7DE',
-       1000:'#D988B9',
+
+      pink: {
+        50: '#D988B94D',
+        150: '#EEC7DE',
+        1000: '#D988B9',
       },
-      Pink:{
+      Pink: {
         100: '#EEC7DE00',
       },
     },
     extend: {
       fontFamily: {
-        'Montserrat':['Montserrat'],
-        'Tenor-Sans':['Tenor-Sans'],
+        'Montserrat': ['Montserrat'],
+        'Tenor-Sans': ['Tenor-Sans'],
       },
       boxShadow: {
         '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)',
@@ -51,8 +54,8 @@ module.exports = {
         '3.5': '3.5rem',
       },
       margin: {
-        '21.5': '21.5rem'
-      }
+        '21.5': '21.5rem',
+      },
     },
 
   },
