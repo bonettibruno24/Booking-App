@@ -12,6 +12,7 @@ module.exports = {
       bold: '900',
     },
     fontSize: {
+      pm: '0.7rem',
       sm: '1.00rem',
       xs: '1.20rem',
       xl: '1.30rem',
@@ -56,6 +57,10 @@ module.exports = {
       margin: {
         '21.5': '21.5rem',
       },
+      borderRadius: {
+        'md': '20px',
+        'lg': '3px',
+      }
     },
 
   },
