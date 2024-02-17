@@ -1,4 +1,4 @@
-<section class="flex w-full h-96 justify-center items-center absolute font-Tenor-Sans font-medium text-xl">
+<section class="flex w-full h-96 justify-center items-center relative font-Tenor-Sans font-medium text-xl">
     <div class="grid flex-col w-96 h-60 mt-20 rounded-3xl drop-shadow-4x1 gap-1 text-dark justify-center items-center" id="menuOptiion" [ngStyle]="styleBorder">
         <h1 class="ml-28 tracking-[0.25em] text-xs ">SERVIÇOS</h1>
         <div class="grid grid-cols-1 gap-2">
@@ -21,12 +21,13 @@
         </div>
         </div>
 </section>
-<section>
-    <ul>
-     <h3></h3>
-     <li *ngFor="let item of dayweek">
+<section class="grid h-1/2 justify-center items-center relative ">
+    <ul class="flex w-40 h-44 bg-rose rounded-br-[3px] rounded-tr-[3px] rounded-bl-[20px] rounded-tl-[20px] flex-col" [ngStyle]="styleBorder">
+     <h3 class="tracking-[0.25em] text-center text-[0.7rem] font-medium ">HORARIOS</h3>
+     <hr class="w-24 h-px bg-dark relative ml-7 ">
+     <li *ngFor="let item of dayweek" class="text-center text-[0.7rem] top-3">
        <strong>{{ item.days }}</strong>.
-         {{item.hours}}
+         {{item.hours }}
      </li>
     </ul>
     <div>
