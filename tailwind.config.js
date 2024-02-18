@@ -8,10 +8,12 @@ module.exports = {
       wider: '0.20em',
     },
     fontWeight: {
+      small: '400',
       medium: '500',
       bold: '900',
     },
     fontSize: {
+      md: '0.5rem',
       pm: '0.7rem',
       sm: '1.00rem',
       xs: '1.20rem',
@@ -57,8 +59,11 @@ module.exports = {
       margin: {
         '21.5': '21.5rem',
       },
+    height: {
+      '1/2': '0.4px',
+    },
       borderRadius: {
-        'md': '20px',
+        'md': '25px',
         'lg': '3px',
       }
     },
