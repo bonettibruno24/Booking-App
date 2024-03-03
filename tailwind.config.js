@@ -67,7 +67,6 @@ module.exports = {
         'lg': '3px',
       }
     },
-
   },
   plugins: [],
 }
