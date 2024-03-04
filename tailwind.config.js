@@ -52,6 +52,7 @@ module.exports = {
       },
       dropShadow: {
         '4x1': '9px 15px 3px rgba(0, 0, 0, 0.15)',
+        '7x1': '5px 8px 4px 0px #000000',
       },
       spacing: {
         '3.5': '3.5rem',
