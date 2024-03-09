@@ -32,7 +32,7 @@ module.exports = {
       'dark-border': '(rgba(0, 0, 0, 0.60)',
       'dark-gray': '#333333',
       'rose-barbie': '',
-
+  
       pink: {
         50: '#D988B94D',
         150: '#EEC7DE',
