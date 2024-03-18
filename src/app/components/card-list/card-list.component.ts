@@ -21,4 +21,16 @@ export class CardListComponent {
     { days: 'Sab', hours: '08:00 as 19:00'},
     { days: 'Dom', hours: 'Fechado'},
   ];
+  services = [
+    {services: 'Alongamento', price: 'R$ 30'}, 
+    {services: 'Esmaltação', price: 'R$ 40'}, 
+    {services: 'Alongamento', price: 'R$ 38'}, 
+    {services: 'Alongamento', price: 'R$ 42'}, 
+  ]
+      
+    
+
+
+
   }
+  
