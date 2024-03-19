@@ -24,8 +24,8 @@ export class CardListComponent {
   services = [
     {services: 'Alongamento', price: 'R$ 30'}, 
     {services: 'Esmaltação', price: 'R$ 40'}, 
-    {services: 'Alongamento', price: 'R$ 38'}, 
-    {services: 'Alongamento', price: 'R$ 42'}, 
+    {services: 'Unha de Gel', price: 'R$ 38'}, 
+    {services: 'Manutenção', price: 'R$ 42'}, 
   ]
       
     

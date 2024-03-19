@@ -13,6 +13,7 @@ module.exports = {
       bold: '900',
     },
     fontSize: {
+      pp: '0.3rem',
       md: '0.5rem',
       pm: '0.7rem',
       sm: '1.00rem',
@@ -47,6 +48,9 @@ module.exports = {
         'Montserrat': ['Montserrat'],
         'Tenor-Sans': ['Tenor-Sans'],
       },
+      margin:{
+        '3px': '3px',
+      },
       boxShadow: {
         '3x1': '3px -4px 1px 0px rgba(0, 0, 0, 0.26)',
       },
@@ -66,7 +70,8 @@ module.exports = {
       borderRadius: {
         'md': '25px',
         'lg': '3px',
-      }
+      },
+    
     },
   },
   plugins: [],
