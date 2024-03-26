@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injectable, OnInit } from '@angular/core';
 
 
 @Component({
@@ -9,4 +9,17 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent {
   title = 'MyProject';
 }
+@Injectable({
+  providedIn: 'root'
+})
+export class GlobalBorderImplements {
+  BorderSimple = {
+    'border': '2px solid #55555599'
+  };
 
+  buttonBorder = {
+    'border': '1px solid #000000'
+  };
+
+  constructor() { }
+}
